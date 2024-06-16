@@ -14,7 +14,7 @@ export async function insertData(client: PoolClient, country: string) {
   const data1 = [];
   const dataosm: any[] = [];
 
-  for (let i = 380; i <= 478; i++) {
+  for (let i = 1; i <= 478; i++) {
     const file_path = './src/osm/data/' + country + '/' + i + '.geojson';
 
     try {

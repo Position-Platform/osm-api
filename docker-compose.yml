@@ -1,0 +1,28 @@
+version: '3'
+services:
+  osm_api:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    image: osm_api
+    container_name: osm_api
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - osm_api_data:/var/www/html # Utilisation d'un volume pour le code source
+      - ./.env:/var/www/html/.env
+    ports:
+      - '${APP_PORT:-9090}:3000'
+    networks:
+      - osm_api_network
+
+
+volumes:
+  osm_api_data:
+    name: osm_api_data
+    driver: local
+
+networks:
+  osm_api_network:
+    name: osm_api_network
+    driver: bridge

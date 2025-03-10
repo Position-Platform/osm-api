@@ -1,0 +1,7 @@
+node_modules
+.env
+env.json
+dist
+src/osm
+cache
+logs

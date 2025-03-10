@@ -81,7 +81,7 @@ export class RateLimitedNominatimClient {
 
       while (attempts < CONFIG.RETRY_ATTEMPTS) {
         try {
-          const url = new URL('https://nominatim.openstreetmap.org/reverse');
+          const url = new URL('https://nominatim.position.cm/reverse');
           url.searchParams.append('lat', lat.toString());
           url.searchParams.append('lon', lon.toString());
           url.searchParams.append('format', 'json');

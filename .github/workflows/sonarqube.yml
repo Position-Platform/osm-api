@@ -1,4 +1,4 @@
-name: Sonarqube GeOsm Qgis
+name: Sonarqube Osm Api
 
 on:
   push:

@@ -45,7 +45,7 @@
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "ogr2ogr": "^4.0.0",
-    "p-limit": "^2.3.0",
+    "p-limit": "^6.2.0",
     "pg": "^8.13.3",
     "sql-formatter": "^15.4.11"
   }

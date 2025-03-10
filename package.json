@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "body-parser": "^1.20.3",
-    "express": "^4.18.2",
+    "express": "^4.21.2",
     "nominatim-client": "^3.2.1",
     "ogr2ogr": "^4.0.0",
     "p-limit": "^2.3.0",

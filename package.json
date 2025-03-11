@@ -34,7 +34,7 @@
     "@types/express": "^5.0.0",
     "@types/pg": "^8.11.11",
     "@typescript-eslint/eslint-plugin": "^5.45.1",
-    "@typescript-eslint/parser": "^5.45.1",
+    "@typescript-eslint/parser": "^8.26.1",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.3",

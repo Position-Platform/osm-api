@@ -47,6 +47,6 @@
     "ogr2ogr": "^4.0.0",
     "p-limit": "^6.2.0",
     "pg": "^8.16.0",
-    "sql-formatter": "^15.6.2"
+    "sql-formatter": "^15.6.4"
   }
 }

@@ -44,7 +44,7 @@
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
-    "ogr2ogr": "^4.0.0",
+    "ogr2ogr": "^6.0.1",
     "p-limit": "^6.2.0",
     "pg": "^8.16.0",
     "sql-formatter": "^15.6.2"

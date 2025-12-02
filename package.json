@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/BorisGautier/osm-api#readme",
   "devDependencies": {
-    "@types/express": "^5.0.2",
+    "@types/express": "^5.0.6",
     "@types/pg": "^8.15.4",
     "@typescript-eslint/eslint-plugin": "^5.45.1",
     "@typescript-eslint/parser": "^5.45.1",
@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "body-parser": "^2.2.0",
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "ogr2ogr": "^4.0.0",
     "p-limit": "^6.2.0",
     "pg": "^8.16.0",
